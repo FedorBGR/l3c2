@@ -12,7 +12,7 @@ import java.util.Locale;
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "studentDatabaseTwo.db";
     private static final int DATABASE_VERSION = 2;
-    private static final String TABLE_NAME = "ОдногруппникиДва";
+    private static final String TABLE_NAME = "ОдногруппникиTwo";
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
